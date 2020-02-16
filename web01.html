@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>web</title>
+	<link rel="stylesheet" href="web01.css">
+</head>
+<body>
+<header>
+	<div></div>
+	<div>
+		<a href="web01.html">
+			<img src="instargram03.png" width="140px">
+		</a>
+	</div>
+	<div>
+		<input type="text" placeholder="검색">
+	</div>
+	<div class="headerButton">
+		<a href="web01.html" id="login">로그인</a>&nbsp;&nbsp; 
+		<a href="web01.html" id="join">가입하기</a>
+	</div>
+	<div></div>
+</header>
+<section>
+	<div></div>
+	<div>
+		<input type="radio" name="imgs" id="i1" checked>
+		<input type="radio" name="imgs" id="i2">
+		<input type="radio" name="imgs" id="i3">
+		<input type="radio" name="imgs" id="i4">
+		<input type="radio" name="imgs" id="i5">
+		<div class="slideImg" id="name">
+			<img src="name.jpg" width="422px" height="530px">
+			<label for="i5" class="pre" onclick="location.href='#goalText'">
+				<img src="arrow06.png" width="40px">
+			</label>
+			<label for="i2" class="nxt" onclick="location.href='#characterText'">
+				<img src="arrow06.png" width="40px">
+			</label>
+		</div>
+
+		<div class="slideImg" id="character">
+			<img src="character02.jfif" width="422px" height="530px">
+			<label for="i1" class="pre" onclick="location.href='#nameText'">
+				<img src="arrow06.png" width="40px">
+			</label>
+			<label for="i3" class="nxt" onclick="location.href='#hobbyText'">
+				<img src="arrow06.png" width="40px">
+			</label>
+		</div>
+
+		<div class="slideImg" id="hobby">
+			<img src="hobby.jfif" width="422px" height="530px">
+			<label for="i2" class="pre" onclick="location.href='#characterText'">
+				<img src="arrow06.png" width="40px">
+			</label>
+			<label for="i4" class="nxt" onclick="location.href='#likeText'">
+				<img src="arrow06.png" width="40px">
+			</label>
+		</div>
+
+		<div class="slideImg" id="like">
+			<img src="like02.jpg" width="422px" height="530px">
+			<label for="i3" class="pre" onclick="location.href='#hobbyText'">
+				<img src="arrow06.png" width="40px">
+			</label>
+			<label for="i5" class="nxt" onclick="location.href='#goalText'">
+				<img src="arrow06.png" width="40px">
+			</label>
+		</div>
+
+		<div class="slideImg" id="goal">
+			<img src="goal.jpg" width="422px" height="530px">
+			<label for="i4" class="pre" onclick="location.href='#likeText'">
+				<img src="arrow06.png" width="40px">
+			</label>
+			<label for="i1" class="nxt" onclick="location.href='#nameText'">
+				<img src="arrow06.png" width="40px">
+			</label>
+		</div>
+
+	</div>
+	<div class="sectionBody">
+		<div id="sectionBodyTitle">
+			<div id="sbt01">
+				<img src="in01.jfif" width="30px" onclick="location.href='web01.html'">
+			</div>
+			<div id="sbt">
+				<p id="sbt02">one-iron ㆍ</p>
+				<span id="sbt03" onclick="location.href='web01.html'">팔로우</span>
+				<p id="sbt04">one-iron at Gangbeyon</p>
+			</div>
+			<div id="dot3">
+				<img src="dot3.png" width="15px">
+			</div>
+		</div>
+		<div id="sectionBodyContent" style="overflow:auto; width:298px; height:330px;">
+			<div id="sbc01">
+				<img src="in01.jfif" width="30px" onclick="location.href='web01.html'">
+			</div>
+			<div>
+				<h5 id="nameText">🤴이원철</h5>
+				<p>안녕하세요. 저의 이름은 이원철입니다.
+				90년 생으로 올해 31살이며 강변역 근처에서 살고 있습니다.
+				</p>
+				<h5 id="characterText">🍋성격</h5>
+				<p>성격은 불만이 많다고 많이 듣습니다.
+				그렇다고 막 짜증을 내거나 화를 내지는 않고
+				문제를 그냥 넘어가지 않고 이해하고
+				해결방안을 찾아내려고 노력합니다.
+				</p>
+				<h5 id="hobbyText">🎬취미</h5>
+				<p>취미는 영화,드라마,애니 보는 겁니다.
+				조용한 것을 좋아해서 집에서 NETFLIX 보는걸 즐겨 합니다.
+				만약 밖이 조용하다면 아마 매일 밖에 있지 않을까 합니다.
+				그 밖의 취미는 등산입니다.
+				그렇다고 장비를 갖추고 정상을 찍는 개념이 아니라,
+				산에는 차도 사람도 없으니, 한적해서 산책 겸 집 주변에 있는
+				산을 자주 갑니다.</p>
+				<h5 id="likeText">🐶좋아하는 것</h5>
+				<p>강아지를 좋아합니다. 동물들은 다 좋아하지만,
+				먼저 다가와주는 강아지랑 많이 친해지는 것 같습니다.
+				본가에서도 강아지를 키우고 있습니다. 이름은 쿠마이고 나이는 9살인데, 아토피 같은 고칠 수 없는 피부병이 선천적으로 있어서 굉장히 예민하고, 자기를 만지는 것을 좋아하지 않습니다. 피부병 때문에 많이 예민하지만, 말썽부리지 않고 착합니다.</p>
+				<h5 id="goalText">🎯위코드에서 목표</h5>
+				<p>아직 프론트엔드를 할지, 백엔드를 할지 결정은 하지 못했지만,
+				결정하면 정말 바로 현업에서 움직일 수 있을 정도로 열심히 배워보고 싶습니다.</p><br><br><br><br>
+				<p id="hash">#위코드 #투피엠 #자기소개 #이원철 #화이팅</p>
+				<p id="date">4일전</p>
+			</div>
+			<div></div>
+		</div>
+		<div id="sectionBodyHistory">
+			<div>1</div>
+			<div id="likeCount">좋아요 0개</div>
+			<div id="dateCount">2월 14일</div>
+		</div>
+		<div id="sectionBodyFooter">
+			<p id="sbf01">좋아요 또는 댓글을 남기려면</p>
+			<span id="sbf02">로그인.</span>
+		</div>
+	</div>
+	<div></div>
+</section>
+<footer>
+	<div></div>
+	<div class="footerLeft">
+		
+
+		<label id="clickName" for="i1" onclick="location.href='#nameText'">이원철</label>&nbsp;&nbsp;&nbsp;
+		<label id="clickCharacter" for="i2" onclick="location.href='#characterText'">성격</label>&nbsp;&nbsp;&nbsp;
+		<label id="clickHobby" for="i3" onclick="location.href='#hobbyText'">취미</label>&nbsp;&nbsp;&nbsp;
+		<label id="clickLike" for="i4" onclick="location.href='#likeText'">좋아하는 것</label>&nbsp;&nbsp;&nbsp;
+		<label id="clickGoal" for="i5" onclick="location.href='#goalText'">위코드에서 목표</label>&nbsp;&nbsp;&nbsp;
+		
+	</div>
+	<div class="footerRight">
+		<font color="gray">© 2020 WEBPAGE FROM ONE-IRON</font>
+	</div>
+	<div></div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,220 @@
+header {
+	display: grid;
+	grid-template-columns: 1.2fr 1fr 2fr 1fr 1.2fr;
+	height: 70px;
+	align-content: center;
+	text-align: center;
+	border-bottom: 1px lightgray solid;
+	z-index: 99;
+
+	  position: fixed;
+	  top: 0;
+	  left: 0;
+	  background-color: white;
+	  width: 100%;
+}
+input[type=text] {
+	border: 1px lightgray solid;
+	height: 25px;
+	width: 205px;
+	text-align: center;
+	border-radius: 3px;
+	margin-top: 6px;
+	background-color: ghostwhite;
+	font-size: 13px;
+}
+.headerButton {
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 11px;
+}
+#login {
+	border: 1px solid;
+	padding: 4px 9px 4px 9px;
+	border-radius: 5px;
+	background-color: dodgerblue;
+	color: white; 
+	text-decoration: none;
+}
+#join {
+	color: dodgerblue;
+	text-decoration: none;
+}
+
+section {
+	display: grid;
+	grid-template-columns: 1.2fr 422px 300px 1.2fr;
+	height: 530px;
+	text-align: center;
+	margin-top: 120px;
+	margin-bottom: 120px;
+}
+.slideImg {
+	position: absolute;
+}
+#i1, #i2, #i3, #i4, #i5,#a5 {
+	display: none;
+}
+.pre {
+	position: absolute;
+	z-index: 99;
+	cursor: pointer;
+	top: 265px;
+	left: 0;
+	transform: rotate(270deg);
+}
+.nxt {
+	position: absolute;
+	z-index: 99;
+	cursor: pointer;
+	top: 265px;
+	right: 0;
+	transform: rotate(90deg);
+}
+.footerLeft label{
+	cursor: pointer;
+}
+.slideImg {
+	z-index: -1;
+}
+#i1:checked ~ #name,
+#i2:checked ~ #character,
+#i3:checked ~ #hobby,
+#i4:checked ~ #like,
+#i5:checked ~ #goal {
+	z-index: 9;
+}
+
+.sectionBody {
+
+}
+#sectionBodyTitle {
+	display: grid;
+	grid-template-columns: 0.5fr 1.5fr 0.4fr;
+	border: 1px lightgray solid;
+	border-bottom: none;
+	height: 60px;
+}
+#sbt01 {
+	align-self: center;
+	cursor: pointer;
+}
+#sbt {
+	text-align: left;
+}
+#sbt02 {
+	display: inline-block;
+	font-weight: bold;
+}
+#sbt03 {
+	color: dodgerblue;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+}
+#sbt04 {
+	margin-top: -13px;
+	color: gray;
+}
+#dot3 {
+	align-self: center;
+	cursor: pointer;
+}
+#sectionBodyContent {
+	display: grid;
+	grid-template-columns: 0.5fr 1.5fr 0.3fr;
+	border: 1px lightgray solid;
+	border-bottom: none;
+	height: 330px;
+	font-size: 14px;
+	text-align: left;
+}
+#sbc01 {
+	padding-left: 16px;
+	padding-top: 20px;
+	cursor: pointer;
+}
+#hash {
+	color: midnightblue;
+}
+#date {
+	color: lightgray;
+	font-size: 12px;
+}
+#sectionBodyHistory {
+	display: grid;
+	grid-template-rows: 1.5fr 1fr 1fr;
+	border: 1px lightgray solid;
+	border-bottom: none;
+	height: 80px;
+}
+#likeCount {
+	font-weight: bold;
+	text-align: left;
+	padding-left: 16px;
+	font-size: 14px;
+}
+#dateCount {
+	color: gray;
+	font-size: 8px;
+	padding-left: 16px;
+	text-align: left;
+}
+#sectionBodyFooter {
+	border: 1px lightgray solid;
+	height: 56px;
+	font-size: 13px;
+	text-align: left;
+}
+#sbf01 {
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 16px;
+	color: gray;
+}
+#sbf02 {
+	font-size: 14px;
+	color: midnightblue;
+	cursor: pointer;
+}
+footer {
+	display: grid;
+	grid-template-columns: 1.2fr 2fr 1.2fr 1.2fr;
+}
+.footerLeft {
+	justify-content: center;
+}
+.footerLeft label{
+	font-size: xx-small;
+	text-decoration: none;
+	font-weight: bolder;
+	color: midnightblue;
+}
+.footerRight {
+	font-weight: bold;
+	text-align: right;
+}
+
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: lightgray; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: lightgray; 
+}
